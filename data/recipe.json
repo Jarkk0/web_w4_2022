@@ -1,0 +1,19 @@
+{
+    "recipe": [
+      {
+        "name": "pizza",
+        "instructions": "make pizza",
+        "ingredients": "salami, ananas"
+      },
+      {
+        "name": "pasta",
+        "instructions": "make pasta",
+        "ingredients": "spagetti, meatballs"
+      },
+      {
+        "name": "kebab",
+        "instructions": "cut kebab",
+        "ingredients": "kebab, soosi"
+      }
+    ]
+  }
