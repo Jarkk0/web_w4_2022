@@ -30,8 +30,9 @@ router.get('/:food',  (req, res, next) => {
           }
         ]
     }
+    const recipeObj = JSON.stringify(recipeJSON);
+    res.send(recipeObj);
     
-    res.send(recipeJSON);
 
     //res.json(recipes);
     //foodId = req.params.food;
