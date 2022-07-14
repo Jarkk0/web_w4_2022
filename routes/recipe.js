@@ -30,8 +30,9 @@ router.get('/:food',  (req, res, next) => {
           }
         ]
     }
-    const recipeObj = JSON.stringify(recipeJSON);
-    res.send(recipeObj);
+    var data = JSON.stringify(recipeJSON);
+    res.send(data);
+
     
 
     //res.json(recipes);
